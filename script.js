@@ -42,7 +42,7 @@ function pokemonData(data) {
       <h4>#${data.id}</h4>
     </div>
     <div class="poke-card">
-    <img src="/start-icon.png" alt="shiny icon" class="shiny-img d-flex" onclick="toggleShinyNonShiny(this)"/>
+    <img src="./start-icon.png" alt="shiny icon" class="shiny-img d-flex" onclick="toggleShinyNonShiny(this)"/>
     <img src="${data.sprites.front_default}" alt="pikachu" class="pokemon-img non-shiny " />
     <img src="${data.sprites.front_shiny}" alt="pikachu" class="pokemon-img shiny hidden-shiny" />
     </div>
