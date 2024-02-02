@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="/pokeball-icon.svg" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="pokedex-div mb">
+        <h1>Pokedex</h1>
+        <h3>Gotta catch 'em all</h3>
+      </div>
+      <div class="pokemon-search mb d-flex-center gap">
+        <form onsubmit="getPokemonData(event)">
+          <input
+            type="text"
+            id="pokemon-name"
+            placeholder="Scan Pokemon"
+            autocomplete="off"
+          />
+          <button type="submit" class="catch-btn">Catch it</button>
+        </form>
+      </div>
+      <div class="pokemon-card-container d-flex-center gap"></div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
