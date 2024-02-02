@@ -96,7 +96,7 @@ body {
 
 .pokemon-card {
     width: 250px;
-    margin: 10px; /* Add some margin between cards */
+    margin: 10px;
     background: linear-gradient(80deg, hsl(204, 74%, 54%), white);
     border: 3px solid #FFCC00;
     padding: 8px 20px;
