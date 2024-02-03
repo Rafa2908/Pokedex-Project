@@ -173,3 +173,16 @@ body {
     display: none;
 
 }
+
+@media only screen and (max-width: 640px){
+    .container {
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .pokemon-card-container {
+        width: 80%;
+        height: 70%;
+    }
+
+}
